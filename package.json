@@ -1,0 +1,25 @@
+{
+  "name": "food-crawler",
+  "version": "1.0.0",
+  "description": "A little web scraping to feed my culinary side",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mfreema1/food-crawler.git"
+  },
+  "author": "Mark Freeman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mfreema1/food-crawler/issues"
+  },
+  "homepage": "https://github.com/mfreema1/food-crawler#readme",
+  "dependencies": {
+    "bluebird": "^3.5.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}
